@@ -1,0 +1,1 @@
+# Il devrait nous permettre d'ajouter des fonctionnalités à notre code sans ajuster ou modifier le code existant.

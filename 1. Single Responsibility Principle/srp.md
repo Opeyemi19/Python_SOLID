@@ -1,0 +1,6 @@
+- Si nous regardons l'exemple de code, nous pouvons voir le principe de responsabilité unique parce que chaque article n'a qu'une seule responsabilité.
+    - La responsabilité de l'article est juste d'être un article.
+    - La responsabilité de la commande est simplement de calculer le total. Donc nous allons créer une nouvelle classe qui prend une liste d'articles, puis nous allons simplement calculer la commande.
+    - Puis, nous avons le gestionnaire de commandes qui consiste simplement à passer la commande. 
+    
+Comme vous pouvez le voir, nous pourrions avoir tous ces élements dans une classe entière, la classe le fera mais nous voulions vraiment nous assurer que si nous créeons cette application, nous voulons utiliser trois classes différentes, toutes avec leurs propres fonctionnalités qui doivent être initialisées afin que nous puissons vraiment commencer à isoler toutes les responsabilités de l'application dans différentes classes et dans différentes fonctions afin que nous puissons augmenter la lisibilité,augmenter les performances et diminuer les bugs pour notre application.

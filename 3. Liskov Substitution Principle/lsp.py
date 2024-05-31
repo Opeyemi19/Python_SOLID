@@ -1,0 +1,2 @@
+# Il devrait nous permettre d'utiliser les interfaces comme une relation, mais nous ne devrions utiliser que les interfaces que nous devons être capables de créer ou d'effectuer une action spécifique dans notre application.
+# Il augmente la flexibilité, les performances et permettre à notre application de réellement pouvoir évoluer en suivant ce principe.
