@@ -1,0 +1,3 @@
+- Le principe de liste hors substitution signifie qu'une sous-classe devrait pouvoir remplacer le parent ou la superclasse chaque fois que cela est nécessaire.
+
+- Lors du résultat de notre script, nous constactons que le rectangle a une aire de 20 et le carré a une aire de 25. C'est exactement ce que le principe de substitution de Liskov veut que se produise. Dans ce exemple, nous pouvons voir que le carré hérite du rectangle dans la fonctionnalité de zone d'impression ne fonctionne qu'avec un rectangle mais la classe Carré hérite du rectangle, nous pouvons passer un carré dans la même fonctionnalité de zone d'impression.
