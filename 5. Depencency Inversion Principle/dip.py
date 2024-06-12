@@ -3,7 +3,7 @@
 
 class PaymentGateway:
     def proccess_payment(self, amount):
-        # print("Making payment on Stripe")
+        print("Making payment on Stripe")
         print("Making payment on Venmo")
         pass
     
